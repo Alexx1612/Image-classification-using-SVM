@@ -6,9 +6,9 @@ LINK : https://www.kaggle.com/competitions/tia-2024
 
 🚀 How It Works
 1. Data Preparation
-We started by cleaning and formatting the data:
-Step 1 : Converted .npz files to CSV using convert_npz_to_csv.py. 
-Step 2 : Standardized the data so all features have the same scale. 
+- We started by cleaning and formatting the data:
+- - Step 1 : Converted .npz files to CSV using convert_npz_to_csv.py. 
+- - Step 2 : Standardized the data so all features have the same scale. 
 
 2. Feature Engineering
 To simplify the data and speed up training:
