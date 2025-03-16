@@ -2,7 +2,7 @@
 
 This report details our solution for the TIA 2024 Kaggle Competition, a multi-class classification task focused on anomaly detection. The goal was to develop a machine learning model that achieves high accuracy without using neural networks. Our approach utilized a Support Vector Machine (SVM) with hyperparameter optimization, preprocessing techniques, and a clear workflow to achieve 90.17% accuracy on the validation set and secure a top-10 position in the competition.
 
-LINK : https://www.kaggle.com/competitions/tia-2024
+
 
 🚀 How It Works
 1. Data Preparation
@@ -26,10 +26,13 @@ LINK : https://www.kaggle.com/competitions/tia-2024
 4. Evaluation
 - Accuracy : 90.17% on validation data. 
 - Confusion Matrix : Showed where the model often confused similar classes (e.g., "Shirt" vs. "T-shirt").
+![confusion_matrix](https://github.com/user-attachments/assets/aac15515-f453-4312-91d5-9660f34a576a)
 
 5. Final Predictions
 - The trained model was used to predict the test dataset.
-- Saved results to submission_svm.csv for Kaggle submission. 
+- Saved results to submission_svm.csv for Kaggle submission.
+![class_distribution](https://github.com/user-attachments/assets/d046e65b-98b5-4c82-8ba1-e6f3706b26fe)
+
 
 📚 Tools & Technologies
 - These are the tools we used:
@@ -44,4 +47,8 @@ LINK : https://www.kaggle.com/competitions/tia-2024
  - Accuracy : 90.17% on validation data.
  - Visualizations :
    - Class Distribution : Shows data is balanced (equal samples for each class). 
-   - Confusion Matrix : Highlights common mistakes (e.g., "Shirt" vs. "T-shirt"). 
+   - Confusion Matrix : Highlights common mistakes (e.g., "Shirt" vs. "T-shirt").
+  
+
+  
+LINK : https://www.kaggle.com/competitions/tia-2024
